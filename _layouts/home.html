@@ -9,6 +9,6 @@
 {% for file in site.static_files %}
   {{ file.path }}, {{ file.name }} <br>
   {% if file.image %}
-    <img src = "{{file.path}}" alt="{file.name}" width="200"/> <br>
+    <img src = "{{file.path}}" alt="{file.name}" width="200"> <br>
   {% endif %}
 {% endfor %}
