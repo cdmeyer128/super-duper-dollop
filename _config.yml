@@ -25,7 +25,7 @@ github_username:  cdmeyer128
 other_info: hi
 
 # Build settings
-markdown: kramdowns
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
